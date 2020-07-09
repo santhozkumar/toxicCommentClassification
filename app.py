@@ -7,6 +7,7 @@ import numpy as np
 import re, string
 import pickle
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 import sys
